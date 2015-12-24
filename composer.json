@@ -1,7 +1,6 @@
 {
 	"name" : "sasedev/form-entityid-bundle",
 	"description" : "Entityid Form Bundle for Symfony2 (3.0)",
-	"version" : "1.0.0",
 	"require" : {
 		"php" : ">=5.5",
 		"symfony/form" : "~2.8|~3.0",
