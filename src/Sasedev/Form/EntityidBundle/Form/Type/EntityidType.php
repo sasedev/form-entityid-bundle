@@ -5,7 +5,6 @@ namespace Sasedev\Form\EntityidBundle\Form\Type;
 use Sasedev\Form\EntityidBundle\DataTransformer\EntityToIdTransformer;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\FormView;
@@ -63,7 +62,7 @@ class EntityidType extends AbstractType
 	public function buildView(FormView $view, FormInterface $form, array $options)
 	{
 		if (true === $options['hidden']) {
-			$view->vars['type'] = HiddenType::class;
+			$view->vars['type'] = 'hidden';
 		}
 	}
 
