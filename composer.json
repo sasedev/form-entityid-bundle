@@ -11,7 +11,10 @@
 		"doctrine/doctrine-bundle" : "~1.4"
 	},
 	"license" : "MIT",
-	"keywords" : [ "symfony2", "form" ],
+	"keywords" : [
+		"symfony2",
+		"form"
+	],
 	"extra" : {
 		"branch-alias" : {
 			"dev-master" : "1.0.x-dev"
@@ -23,8 +26,9 @@
 		}
 	},
 	"type" : "symfony-bundle",
-	"authors" : [ {
-		"name" : "Salah Abdelkader Seif Eddine",
-		"email" : "seif.salah@gmail.com"
-	} ]
+	"authors" : [{
+			"name" : "Salah Abdelkader Seif Eddine",
+			"email" : "seif.salah@gmail.com"
+		}
+	]
 }

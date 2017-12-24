@@ -1,9 +1,6 @@
-parameters:
-    sasedev_form_entityid.form.type.entityid.class: Sasedev\Form\EntityidBundle\Form\Type\EntityidType
-
 services:
     sasedev_form_entityid.form.type.entityid:
-        class: %sasedev_form_entityid.form.type.entityid.class%
+        class: Sasedev\Form\EntityidBundle\Form\Type\EntityidType
         arguments: ["@doctrine"]
         tags:
             - { name: form.type, alias: entityid }
